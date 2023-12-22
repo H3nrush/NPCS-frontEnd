@@ -1,0 +1,137 @@
+.div-login-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.div-login-container .login-box {
+  height: 60vh;
+  width: 50vw;
+  background-color: rgba(204, 0, 0, 0.486);
+  border-radius: 2%;
+  box-shadow: 0px 0px 200px 30px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+  animation: labelLogin 5s ease-out;
+}
+
+@keyframes labelLogin {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.input-login {
+  height: 5vh;
+  width: 18vw;
+  margin: 20px;
+  padding-left: 1vw;
+  font-size: 0.7em;
+  border-radius: 10px;
+  transition: all 0.5s ease-out;
+}
+
+.input-login:focus {
+  width: 20vw;
+  outline: none;
+  border: 1px red groove;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.submit {
+  padding: 10px;
+  padding-left: 2VW;
+  padding-right: 2VW;
+  font-size: 15px;
+  margin-top: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.submit:active {
+  color: white;
+  background-color: #494949;
+}
+
+.answer-login {
+  position: absolute;
+  top: 10%;
+  font-size: 1.5em;
+  font: bold;
+}
+
+.goto-signup {
+  position: absolute;
+  bottom: 3vw;
+}
+
+.goto-signup .btn-goto {
+  color: red;
+  text-decoration: none;
+}
+
+.div-privacy {
+  height: 95%;
+  width: 95%;
+  overflow-y: scroll;
+  line-height: 50px;
+  font-size: 20px;
+}
+
+.btn-box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn-box .ag-des {
+  text-decoration: none;
+  background-color: white;
+  padding: 0px 30px 0px 30px;
+  border-radius: 2%;
+}
+
+.accept {
+  background-color: white;
+  transition: all 0.2s ease-out;
+}
+
+.accept:hover {
+  background-color: green;
+  color: white;
+  border-radius: 10%;
+}
+
+.reject {
+  background-color: white;
+  transition: all 0.2s ease-out;
+}
+
+.reject:hover {
+  background-color: red;
+  color: white;
+  border-radius: 10%;
+}

@@ -1,0 +1,1 @@
+*::-webkit-scrollbar{width:0}*{margin:0;padding:0;border:none;overflow-x:hidden}body{height:100vh;width:100vw;background-color:#1a1a1a}.back-img{width:100vw;height:100vh;position:fixed;z-index:-1;background-image:url("./files/homeBackground/logo.png");opacity:0.2;background-repeat:no-repeat;background-size:30%;background-position:center}
